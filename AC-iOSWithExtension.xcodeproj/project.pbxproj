@@ -441,8 +441,8 @@
 		9E49C22D217044EA00BBFBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R27MT28R2X;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,9 +450,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension.TodayExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension.TodayExtensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PP_AppExtensionTodayExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,8 +461,8 @@
 		9E49C22E217044EA00BBFBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R27MT28R2X;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,9 +470,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension.TodayExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension.TodayExtensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PP_AppExtensionTodayExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
