@@ -414,7 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PP_AppWithExtensionMainApp;
+				PROVISIONING_PROFILE_SPECIFIER = AppWithExtensionMain_AppStore_PP;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -433,7 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msdn.AC-iOSWithExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PP_AppWithExtensionMainApp;
+				PROVISIONING_PROFILE_SPECIFIER = AppWithExtensionMain_AppStore_PP;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
